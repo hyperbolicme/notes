@@ -17,6 +17,10 @@ git remote add origin <origin> - add origin
 $ git push -d origin <branch_name>    : to delete remote branch
 $ git branch -d <branch_name>           : to delete local branch
 
+$ git branch <new branch name>		: create new branch without switching to it
+$ git checkout -b branch <new branch name> : create and switch to new branch
+$ git branch : list all branches
+
 ---local branch to be linked to remote branch -----
 git fetch               -- to download remote branch origin
 git branch --set-upstream-to origin/<branch>          -- set remote origin
